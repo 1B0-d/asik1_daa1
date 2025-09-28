@@ -1,1 +1,2 @@
 ms_rand_10k_seed888, array size: 10000, compares: 143793, copies: 235484, merges: 511, insertion calls: 512, max depth: 10, time in ms: 2.5137
+ms_rand_10k_seed888, array size: 10000, compares: 143793, copies: 235484, merges: 511, insertion calls: 512, max depth: 10, time in ms: 2.3585
