@@ -23,8 +23,7 @@ public final class QuickSort {
 
     public static void saveMetricsCsv(String label, int n) {
         double ms = lastNanos / 1_000_000.0;
-        try (PrintWriter out = new PrintWriter(new FileWriter("metrics.csv", true))) {
-            System.out.println("metrics.csv -> " + new java.io.File("metrics.csv").getAbsolutePath());
+        try (java.io.PrintWriter out = new java.io.PrintWriter(new java.io.FileWriter("metrics.csv", true))) {
             out.println(
                     label
                             + ", array size: " + n
@@ -35,10 +34,9 @@ public final class QuickSort {
                             + ", max depth: " + maxDepth
                             + ", time in ms: " + ms
             );
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        } catch (java.io.IOException e) { e.printStackTrace(); }
     }
+
 
 
     public static void sort(int[] a) {

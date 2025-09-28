@@ -1,8 +1,9 @@
-ms_rand_10k_seed888, array size: 10000, compares: 143793, copies: 235484, merges: 511, insertion calls: 512, max depth: 10, time in ms: 2.5137
-ms_rand_10k_seed888, array size: 10000, compares: 143793, copies: 235484, merges: 511, insertion calls: 512, max depth: 10, time in ms: 2.3585
-qs_rand_10k_seed777, array size: 10000, compares: 151956, swaps: 79484, pivots: 6655, recursions: 2007, max depth: 8, time in ms: 1.565
-qs_rand_10k_seed777, array size: 10000, compares: 168520, swaps: 68264, pivots: 6643, recursions: 1982, max depth: 7, time in ms: 1.7553
-select_rand_1k_seed555, array size: 1000, compares: 1550, copies: 4523, recursions: 81, max depth: 9, time in ms: 1.3342
-select_rand_1k_seed555, array size: 1000, compares: 4477, copies: 9048, recursions: 83, max depth: 9, time in ms: 1.4958
-closest_rand_2k_seed555, n: 2000, compares: 7776, copies: 19856, max depth: 11, time ms: 2.0498
-closest_rand_2k_seed555, n: 2000, compares: 7776, copies: 19856, max depth: 11, time ms: 2.0471
+
+ms_rand_10000_seed123, array size: 10000, compares: 143959, copies: 235767, merges: 511, insertion calls: 512, max depth: 10, time in ms: 2.9189
+ms_rand_10000_seed123, n: 10000, compares: 143959, copies: 235767, merges: 511, insertion_calls: 512, max_depth: 10, time_ms: 2.9189
+qs_rand_10000_seed123, array size: 10000, compares: 153011, swaps: 69343, pivots: 6676, recursions: 1990, max depth: 8, time in ms: 4.1642
+qs_rand_10000_seed123, n: 10000, compares: 153011, swaps: 69343, pivots: 6676, recursions: 1990, max_depth: 8, time_ms: 4.1642
+select_rand_10000_seed123_k5000, array size: 10000, compares: 47513, copies: 95495, recursions: 348, max depth: 13, time in ms: 4.4813
+select_rand_10000_seed123_k5000, n: 10000, compares: 47513, copies: 95495, recursions: 348, max_depth: 13, time_ms: 4.4813
+closest_rand_10000_seed123, n: 10000, compares: 47930, copies: 120000, max depth: 13, time ms: 6.965
+closest_rand_10000_seed123, n: 10000, compares: 47930, copies: 120000, max_depth: 13, time_ms: 6.965
