@@ -4,3 +4,5 @@ qs_rand_10k_seed777, array size: 10000, compares: 151956, swaps: 79484, pivots: 
 qs_rand_10k_seed777, array size: 10000, compares: 168520, swaps: 68264, pivots: 6643, recursions: 1982, max depth: 7, time in ms: 1.7553
 select_rand_1k_seed555, array size: 1000, compares: 1550, copies: 4523, recursions: 81, max depth: 9, time in ms: 1.3342
 select_rand_1k_seed555, array size: 1000, compares: 4477, copies: 9048, recursions: 83, max depth: 9, time in ms: 1.4958
+closest_rand_2k_seed555, n: 2000, compares: 7776, copies: 19856, max depth: 11, time ms: 2.0498
+closest_rand_2k_seed555, n: 2000, compares: 7776, copies: 19856, max depth: 11, time ms: 2.0471
